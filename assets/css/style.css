@@ -1,0 +1,68 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    background-color: Blue;
+    position: relative;
+    height: 35px;
+}
+
+body {
+    background-image: url("../images/michigan.jfif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    /*width: 1080px;*/
+
+}
+
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+.name {
+    color: White;
+}
+
+.links{
+    color: Black;
+}
+
+.links:hover {
+    background-color: steelblue;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: Black;
+}
+
+.p1 {
+    font-family: Arial;
+}
+
+.p2 {
+    font-family: Century;
+}
+
+firstletter {
+    font-size: 200%;
+    color: Black;
+}
+
+.salmonText {
+    color: Salmon;
+}
+
+.troutText {
+    color: silver;
+}
+
+.northernText {
+    color: lime;
+}
