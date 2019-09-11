@@ -37,10 +37,10 @@ hr {
     background-color: steelblue;
 }
 
-p::first-letter {
-  font-size: 200%;
-  color: Black;
+p {
+    color: teal;
 }
+
 
 .p1 {
     font-family: Arial;
@@ -48,11 +48,6 @@ p::first-letter {
 
 .p2 {
     font-family: Century;
-}
-
-firstletter {
-    font-size: 200%;
-    color: Black;
 }
 
 .salmonText {
@@ -65,4 +60,9 @@ firstletter {
 
 .northernText {
     color: lime;
+}
+
+.colum {
+text-align: center;
+
 }
